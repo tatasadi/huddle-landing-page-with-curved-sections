@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+  }
+
+  .footer-link {
+    @apply cursor-pointer underline;
+  }
+
+  .heading-xl {
+    @apply text-2xl font-bold leading-[2.25rem] lg:text-[3rem] lg:leading-[4.5rem];
+  }
+
+  .heading-l {
+    @apply text-xl font-bold leading-[1.875rem] lg:text-[2.5rem] lg:leading-[3.75rem];
+  }
+
+  .paragraph-l {
+    @apply text-sm leading-[1.3125rem] lg:text-xl lg:leading-[1.875rem];
+  }
+
+  .paragraph-m {
+    @apply text-sm leading-[1.3125rem] lg:text-base lg:leading-6;
+  }
+}
