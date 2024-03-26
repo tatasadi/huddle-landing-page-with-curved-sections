@@ -26,7 +26,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${openSans.className} relative flex min-h-screen flex-col items-center bg-cream-white`}
+        className={`${openSans.className} text-very-dark-cyan relative flex min-h-screen flex-col items-center bg-white`}
       >
         <Header />
         {children}

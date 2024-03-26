@@ -24,6 +24,7 @@ const config = {
         "light-red": "hsl(0, 100%, 63%)",
         "very-dark-cyan": "hsl(192, 100%, 9%)",
         "very-pale-blue": "hsl(207, 100%, 98%)",
+        "dark-gray": "hsl(208, 11%, 55%)",
       },
       keyframes: {
         "accordion-down": {
