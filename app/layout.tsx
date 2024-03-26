@@ -6,7 +6,7 @@ import { openSans } from "./fonts"
 import Attribution from "./components/attribution"
 
 export const metadata: Metadata = {
-  title: "Suite Landing Page",
+  title: "Huddle Landing Page with Curved Sections",
   description: "A Challenge from Frontend Mentor!",
 }
 

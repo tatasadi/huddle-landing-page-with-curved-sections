@@ -21,8 +21,12 @@ const Footer = () => {
             newsletter. We’ll never send you spam or pass on your email address
           </p>
           <div className="flex w-full flex-col items-end gap-4 lg:mt-2 lg:flex-row lg:gap-10">
+            <label htmlFor="email" className="hidden">
+              Email
+            </label>
             <input
               type="email"
+              id="email"
               className="mt-8 w-full rounded-[0.375rem] px-4 py-3 lg:w-[20rem]"
             />
             <Button variant="secondary">Subscribe</Button>
@@ -50,6 +54,7 @@ const Footer = () => {
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Facebook"
               >
                 <RiFacebookBoxFill className="text-4xl text-white" />
               </a>
@@ -57,6 +62,7 @@ const Footer = () => {
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <FaInstagram className="text-4xl text-white" />
               </a>
@@ -64,6 +70,7 @@ const Footer = () => {
                 href="https://www.twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Twitter"
               >
                 <FaSquareTwitter className="text-4xl text-white" />
               </a>
