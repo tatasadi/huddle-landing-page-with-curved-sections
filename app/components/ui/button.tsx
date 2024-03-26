@@ -13,7 +13,8 @@ const buttonVariants = cva(
           "bg-pink rounded-full text-white font-bold text-xs leading-[1.125rem] shadow-[0px_3px_7px_rgba(0,37,46,0.22)] px-10 py-[0.69rem] lg:py-[1.56rem] lg:px-12 lg:text-xl lg:leading-[1.875rem]",
         outline:
           "border-[0.588px] text-[0.58825rem] border-pink text-pink rounded-full shadow-[0_0_5px_0_rgba(255,82,193,0.22)] px-[1.11rem] py-[0.33rem] lg:text-base lg:px-[1.94rem] lg:py-[0.56rem]",
-        secondary: "",
+        secondary:
+          "bg-pink rounded-[0.3125rem] text-white font-bold leading-6 px-10 py-3 text-base",
       },
       size: {
         default: "",
