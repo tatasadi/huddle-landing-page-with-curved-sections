@@ -1,11 +1,14 @@
 import { Button } from "../ui/button"
 import Image from "next/image"
 import screenMockups from "@/public/screen-mockups.svg"
+import { poppins } from "../../fonts"
 
 const HeroSection = () => {
   return (
     <section className="mt-[7.03rem] flex flex-col items-center px-10 text-center lg:mt-[14.06rem] lg:px-[13.25rem]">
-      <h1 className="heading-xl">Build The Community Your Fans Will Love</h1>
+      <h1 className={`heading-xl ${poppins.className}`}>
+        Build The Community Your Fans Will Love
+      </h1>
       <p className="paragraph-l mt-6 max-w-[37.5rem] lg:mt-[1.62rem]">
         Huddle re-imagines the way we build communities. You have a voice, but
         so does your audience. Create connections with your users as you engage
