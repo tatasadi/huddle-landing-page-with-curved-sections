@@ -32,6 +32,7 @@ Desktop:
 ![](./screenshot1.png)
 
 Mobile:
+
 ![](./screenshot2.png)
 
 ### Links
@@ -53,7 +54,7 @@ Mobile:
 
 ### Implementation time
 
-This challenge was completed over a span of x hours.
+This challenge was completed over a span of 3.5 hours.
 
 ## Author
 

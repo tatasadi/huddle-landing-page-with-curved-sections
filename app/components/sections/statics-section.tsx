@@ -5,7 +5,7 @@ import iconMessages from "@/public/icon-messages.svg"
 
 const StaticsSection: React.FC = () => {
   return (
-    <section className="mt-[7.5rem] flex flex-col items-center gap-[5.66rem] lg:flex-row lg:justify-evenly lg:gap-0">
+    <section className="mt-[8rem] flex flex-col items-center gap-[5.66rem] lg:flex-row lg:justify-evenly lg:gap-10">
       <Stat icon={iconCommunities} title="1.4k+" text="Communities Formed" />
       <Stat icon={iconMessages} title="2.7m+" text="Messages Sent" />
     </section>

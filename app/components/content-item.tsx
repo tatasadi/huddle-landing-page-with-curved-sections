@@ -20,7 +20,7 @@ const ContentItem: React.FC<IPorps> = ({
 }) => (
   <div
     className={cn(
-      "flex flex-col items-center gap-[4.64rem] px-6 py-20 lg:flex-row lg:gap-[7.61rem] lg:px-[7.5rem]",
+      "flex flex-col items-center gap-[4.64rem] px-6 lg:flex-row lg:gap-[7.61rem] lg:px-[8.25rem]",
       className,
     )}
   >
@@ -35,7 +35,7 @@ const ContentItem: React.FC<IPorps> = ({
     <div
       className={cn(
         "flex flex-col items-center text-center lg:items-start lg:text-left",
-        imageRight ? "lg:order-1" : "",
+        imageRight ? "lg:order-1" : "lg:ml-5",
       )}
     >
       <h2
@@ -46,7 +46,7 @@ const ContentItem: React.FC<IPorps> = ({
       >
         {title}
       </h2>
-      <p className="mt-4 lg:mt-[1.62rem]">{description}</p>
+      <p className="mt-4 lg:mt-[1.45rem]">{description}</p>
     </div>
   </div>
 )

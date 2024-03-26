@@ -10,7 +10,7 @@ interface IProps {
 const Stat: React.FC<IProps> = ({ icon, title, text }) => {
   return (
     <div className="flex flex-col items-start">
-      <Image src={icon} alt={title} className="h-9 w-auto lg:h-[3.5rem]" />
+      <Image src={icon} alt={title} className="h-9 w-auto lg:h-[2.25rem]" />
       <h3 className="text-[3.8rem] font-bold leading-[5.71rem] lg:text-[6rem] lg:leading-[9rem]">
         {title}
       </h3>
